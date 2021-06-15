@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+/* 共通 */
+.wrapper {
+  width: 1000px;
+  margin: 0 auto 70px;
+  text-align: center;
+}
+
+.secound_title {
+  font-size: 30px;
+  margin: 50px 0 40px 0;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* header        */
+header {
+  height: 400px;
+  background: url(../img/firstview.jpg);
+  background-repeat: no-repeat;
+  margin-bottom: 70px;
+}
+
+.main_title {
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  padding-top: 160px;
+}
+
+
+
+/* blog       */
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.grid_item img {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.grid_item p {
+  font-weight: bold;
+  text-align: left;
+}
+
+
+/* info      */
+
+.info {
+  width: 780px;
+  margin: 0 auto;
+}
+
+.info p {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 450px;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+textarea {
+  width: 450px;
+  height: 200px;
+}
+
+.label {
+  display: inline-block;
+  width: 240px;
+  font-weight: bold;
+}
+
+
+/* btn */
+.btn {
+  width: 200px;
+  padding: 10px 0;
+  border: 1px solid #fff;
+  font-weight: bold;
+}
+
+.deleate {
+  background: #ccc;
+}
+
+.add {
+  background: rgb(0, 170, 162);
+  color: #fff;
+}
+
+.action {
+  text-align: center;
+  margin: 30px 0 100px;
+}
